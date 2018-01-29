@@ -1,0 +1,19 @@
+# Editors
+.idea
+.vscode
+
+# Logs
+logs
+*.log
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+
+# Environment config
+.env
+
+# Databases
+.data

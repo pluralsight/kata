@@ -1,0 +1,4 @@
+./**/*specs.js
+
+--require ./test/config.js
+
