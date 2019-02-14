@@ -1,0 +1,59 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true,
+    "mocha": true,
+    "node": true
+  },
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "globals": {
+    "__DEVTOOLS__": false,
+    "__WEBPACK__": false,
+    "expect": false,
+    "jsonLog": false,
+    "logJson": false,
+    "mount": false,
+    "render": false,
+    "shallow": false,
+    "sinon": false
+  },
+  "plugins": [
+    "babel",
+    "react",
+    "standard"
+  ],
+  "rules": {
+    "arrow-parens": [2, "always"],
+    "curly": ["error", "multi-line"],
+    "generator-star-spacing": 2,
+    "indent": ["error", 2],
+    "jsx-quotes": [2, "prefer-double"],
+    "keyword-spacing": ["error", {
+      "before": true,
+      "after": true
+    }],
+    "no-unused-expressions": 0,
+    "object-curly-spacing": ["error", "always"],
+    "object-shorthand": ["error", "always"],
+    "operator-linebreak": 0,
+    "react/no-unused-prop-types": [ 0 ],
+    "react/prop-types": [
+      2,
+      { "ignore": ["css"
+        ]
+      }
+    ],
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "space-infix-ops": ["off"]
+  }
+}
